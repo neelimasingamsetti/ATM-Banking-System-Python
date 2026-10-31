@@ -1,21 +1,17 @@
 pin = 1234
 a = 1000  # Initial Balance
 
-# Step 1: PIN Verification
 b = int(input("Enter a pin: "))
 if pin == b:
     print("valid")
     
-    # Step 2: Menu Options
     print("1. Check Balance")
     print("2. Deposit")
     print("3. Withdraw")
   
     
-    # Step 3: Taking Option Input
     c = int(input("Choose an option (1/2/3): "))
-    
-    # Step 4: if-elif-else conditions for operations
+
     if c == 1:
         print("Your Balance is:", a)
         
